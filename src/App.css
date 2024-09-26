@@ -1,0 +1,35 @@
+.active{
+  background-color:#5051f9 ;
+
+}
+.active svg path{
+  fill:#fff;
+}
+/* .link svg path{
+  fill:#5f6388;
+} */
+.link:hover {
+  background-color: #d6d6d654;
+}
+.link:hover svg path{
+  fill:#1f0d0d;
+}
+.link{
+  transition: all .5s ease;
+}
+.div-1{
+  display: grid;
+  grid-template-columns: 32% 32% 32% ;
+  gap: 7px;
+  justify-content: space-between;
+}
+.div-1 button img{
+height: 70px;
+width: 100%;
+border-radius: 5px;
+}
+.div-1 button{
+  height: 70px;
+  border-radius: 5px;
+ 
+}
